@@ -7,6 +7,8 @@ RUN useradd -U -m ardupilot && \
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
     lsb-release \
+    rsync \
+    vim \
     sudo \
     bash-completion \
     software-properties-common
